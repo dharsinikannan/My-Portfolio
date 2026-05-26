@@ -1,0 +1,12 @@
+.section {
+  padding: var(--space-lg) var(--space-md);
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: var(--space-md) var(--space-sm);
+  }
+}

@@ -1,0 +1,26 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  background: linear-gradient(135deg, rgba(122,79,45,0.06), rgba(196,149,106,0.08));
+  border: 1px solid rgba(122,79,45,0.15);
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--accent);
+  cursor: default;
+  transition: border-color var(--transition-base);
+  white-space: nowrap;
+}
+
+.badge:hover {
+  border-color: var(--accent-2);
+  background: linear-gradient(135deg, rgba(122,79,45,0.1), rgba(196,149,106,0.14));
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+}

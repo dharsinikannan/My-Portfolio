@@ -1,0 +1,17 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+  transition: border-color var(--transition-base);
+}
+
+.link:hover {
+  border-color: var(--accent);
+}

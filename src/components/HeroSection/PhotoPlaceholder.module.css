@@ -1,0 +1,28 @@
+.photo,
+.placeholder {
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.placeholder {
+  background: linear-gradient(135deg, rgba(139, 94, 60, 0.15), rgba(196, 149, 106, 0.2));
+  border: 3px solid rgba(139, 94, 60, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(139, 94, 60, 0.18);
+}
+
+.initials {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+
+.photo {
+  border: 3px solid rgba(139, 94, 60, 0.35);
+  box-shadow: 0 8px 32px rgba(139, 94, 60, 0.2);
+}
