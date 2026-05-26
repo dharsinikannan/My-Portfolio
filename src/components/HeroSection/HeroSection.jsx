@@ -141,19 +141,7 @@ export function HeroSection() {
         </motion.div>
       </div>
 
-      {/* Scroll hint */}
-      <motion.div
-        className={styles.scrollHint}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5 }}
-      >
-        <motion.div
-          className={styles.scrollLine}
-          animate={{ scaleY: [0, 1, 0] }}
-          transition={{ duration: 1.6, repeat: Infinity, ease: 'easeInOut' }}
-        />
-      </motion.div>
+
     </section>
   )
 }

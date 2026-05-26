@@ -177,22 +177,6 @@
   50%       { transform: scale(1.08); opacity: 1; }
 }
 
-/* Scroll hint */
-.scrollHint {
-  position: absolute;
-  bottom: 2.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.scrollLine {
-  width: 2px;
-  height: 48px;
-  background: linear-gradient(to bottom, var(--accent), transparent);
-  border-radius: var(--radius-full);
-  transform-origin: top;
-}
-
 /* Responsive */
 @media (max-width: 767px) {
   .content {
